@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+table tr {
+
+  border: 5px solid white;
+}
+
+/*   photos gallery in pages style */
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+
+}
+
+/*    display the pictures to be in 3x3   */
+.game-board {
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 300px 300px 300px;
+}
+
+/*  tooltip style      */
+.box .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.box:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: max-content;
+  padding-top: 5px;
+}
+
+/* Add some content at the begining of the video/page */
+.content {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+header {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+}
+
+.firstP {
+  padding-top: 10px;
+
+}
+
+/* interesting opinion style */
+p {
+  padding-top: 4px;
+}
+
+.img1,
+.img3 {
+  float: right;
+  border-radius: 60px;
+  width: 170px;
+  height: 170px;
+  margin-left: 15px;
+}
+
+.img2,
+.img4 {
+  float: left;
+  border-radius: 60px;
+  width: 170px;
+  height: 170px;
+  margin-left: 15px;
+}
+
+.thirdP {
+  padding-top: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+
+
+/*      footer      */
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+#footer {
+  border-top: 5px solid #CDB380;
+  background: black none repeat scroll 0% 0%;
+  padding-top: 30px;
+  margin-top: 60px;
+  clear: both;
+  color: #AAA;
+  display: block;
+}
+
+#footer .widgettitle {
+  margin: 0px;
+  padding: 0px 0px 15px;
+  border-bottom: medium none;
+}
+
+#footer h4 {
+  color: #FFF;
+}
+
+#footer ul {
+  list-style: outside none none;
+}
+
+#footer li {
+  padding: 7px 0px;
+  border-bottom: 1px dotted black;
+  margin: 0px;
+}
+
+#footer li a {
+  color: #DDD;
+}
+
+#sub-floor {
+  color: #AAA;
+  background: black none repeat scroll 0% 0%;
+  padding: 10px 0px;
+}
+
+/* scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

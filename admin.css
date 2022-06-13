@@ -1,0 +1,85 @@
+/*  adminPage.php and profile.php style */
+
+/*    adminPage and trainerPage style   */
+.users-section {
+    display: grid;
+    flex-wrap: wrap;
+
+
+}
+
+.section_header {
+    color: white;
+    background-color: gray;
+    justify-content: center;
+
+}
+
+/*  button*/
+.deleteUser {
+    background-color: red;
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+}
+
+/* 
+table{
+    width:100%;
+
+} */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 50px;
+
+
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+body {
+    font-family: system-ui, serif;
+    color: black;
+
+}
+
+
+.image {
+    width: 230px;
+    height: 230px;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+input {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}

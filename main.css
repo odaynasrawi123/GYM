@@ -1,0 +1,254 @@
+/* main.css is for serviceDay.php services.php serviceTime.php Goal.php style  */
+* {
+  box-sizing: border-box;
+
+}
+
+/* div {
+
+  padding-bottom: 70px;
+} */
+body {
+  background-color: gray;
+}
+
+header {
+  background-color: 033649;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  background-color: black;
+  padding-bottom: 10px;
+
+}
+
+form {
+  padding-top: 50px;
+}
+
+/*  service.php and  trainers.php style */
+.service,
+.trainersBlock {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(7, 1fr);
+  cursor: pointer;
+
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* goal.php  */
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+  margin-left: 35px;
+}
+
+.containerx {
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  margin-top: 20px;
+}
+
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+.table-bordered thead td,
+.table-bordered thead th {
+  border-bottom-width: 2px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+
+.bg-sky.box-shadow {
+  box-shadow: 0px 5px 0px 0px #00a2a7
+}
+
+.bg-orange.box-shadow {
+  box-shadow: 0px 5px 0px 0px #af4305
+}
+
+.bg-green.box-shadow {
+  box-shadow: 0px 5px 0px 0px #4ca520
+}
+
+.bg-yellow.box-shadow {
+  box-shadow: 0px 5px 0px 0px #dcbf02
+}
+
+.bg-pink.box-shadow {
+  box-shadow: 0px 5px 0px 0px #e82d8b
+}
+
+.bg-purple.box-shadow {
+  box-shadow: 0px 5px 0px 0px #8343e8
+}
+
+.bg-lightred.box-shadow {
+  box-shadow: 0px 5px 0px 0px #d84213
+}
+
+.bg-lightblue.box-shadow {
+  box-shadow: 0px 5px 0px 0px lightblue
+}
+
+.bg-lightgreen.box-shadow {
+  box-shadow: 0px 5px 0px 0px lightgreen
+}
+
+.bg-black.box-shadow {
+  box-shadow: 0px 5px 0px 0px black
+}
+
+.bg-red.box-shadow {
+  box-shadow: 0px 5px 0px 0px red
+}
+
+.bg-violet.box-shadow {
+  box-shadow: 0px 5px 0px 0px violet
+}
+
+.bg-treq.box-shadow {
+  box-shadow: 0px 5px 0px 0px turquoise
+}
+
+
+.bg-lightblue {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: red;
+  cursor: pointer;
+}
+
+.bg-lightgreen {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.bg-violet {
+  background-color: violet;
+  cursor: pointer;
+}
+
+.bg-brown {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.bg-treq {
+  background-color: turquoise;
+  cursor: pointer;
+}
+
+.bg-sky {
+  background-color: #02c2c7;
+  cursor: pointer;
+}
+
+.bg-orange {
+  background-color: #e95601;
+  cursor: pointer;
+}
+
+.bg-green {
+  background-color: #5bbd2a;
+  cursor: pointer;
+}
+
+.bg-yellow {
+  background-color: #f0d001;
+  cursor: pointer;
+}
+
+.bg-pink {
+  background-color: #ff48a4;
+  cursor: pointer;
+}
+
+.bg-purple {
+  background-color: #9d60ff;
+  cursor: pointer;
+}
+
+.bg-lightred {
+  background-color: #ff5722;
+
+}
+
+.padding-15px-lr {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.padding-5px-tb {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.margin-10px-bottom {
+  margin-bottom: 10px;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.margin-10px-top {
+  margin-top: 10px;
+}
+
+.font-size14 {
+  font-size: 14px;
+}
+
+.text-light-gray {
+  color: #d6d5d5;
+}
+
+.font-size13 {
+  font-size: 20px;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+.table td,
+.table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}

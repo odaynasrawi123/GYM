@@ -1,0 +1,317 @@
+/*style for Club.php*/
+* {
+    box-sizing: border-box;
+
+}
+/* button style*/
+.style {
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+}
+
+.style span {
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    font-family: Arial;
+    letter-spacing: 8px;
+    z-index: 1;
+}
+
+.style .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: black;
+    box-shadow: inset 0 0 50px gray(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.style .liquid::after,
+.style .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: white;
+}
+
+.style .liquid::before {
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+}
+
+.style .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, .5);
+    animation: animate 10s linear infinite;
+}
+
+.style:hover .liquid {
+    top: -120px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    background: black none repeat scroll 0% 0%;
+    box-shadow: 29px 18px 21px;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    color: white;
+    background:  url("../images/img.jpg") no-repeat fixed center ;
+     background-color: grey;
+    
+  
+}
+
+.ok {
+    background-color: red;
+}
+
+.icon i {
+    width: 40px;
+    color: white;
+}
+
+ul {
+    float: right;
+    font-family: candara;
+    font-size: 17px;
+}
+
+
+ul li {
+    float: left;
+    width: 100px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main ul {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: transparent;
+    box-shadow: 19px 18px 21px;
+}
+
+.letter {
+    border: 1px solid gray;
+    width: 300px;
+    box-shadow: 5px 4px 8px 9px;
+    background: gray none repeat scroll 0% 0%;
+    border-radius: 2px;
+}
+
+.letter h2 {
+    color: white;
+    font-family: candara;
+    text-align: center;
+}
+
+.trainers {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.div {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+
+
+/* gallery style */
+img {
+    vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.h2 {
+    text-align: center;
+}
+
+
+
+/*      footer      */
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+#footer {
+    border-top: 5px solid #CDB380;
+    background: black none repeat scroll 0% 0%;
+    padding-top: 30px;
+    margin-top: 60px;
+    clear: both;
+    color: #AAA;
+    display: block;
+}
+
+#footer .widgettitle {
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: medium none;
+}
+
+#footer h4 {
+    color: #FFF;
+}
+
+#footer ul {
+    list-style: outside none none;
+}
+
+#footer li {
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    margin: 0px;
+}
+
+#footer li a {
+    color: #DDD;
+}
+
+#sub-floor {
+    color: #AAA;
+    background: black none repeat scroll 0% 0%;
+    padding: 10px 0px;
+}
+
+/* scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
